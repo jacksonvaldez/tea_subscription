@@ -8,18 +8,9 @@ class Api::V1::Customers::SubscriptionsController < ApplicationController
 
       render json: SubscriptionSerializer.index(subscriptions)
     else
-      render json: { error: "An error occured" }, status: 404
+      render json: { error: "Customer ID is invalid" }, status: 400
     end
 
   end
-
-  def create # create an association between a customer and subscription (start a subscription)
-    binding.pry
-  end
-
-  def destroy # delete an association between a customer and subscription (cancel a subscription)
-    binding.pry
-  end
-
 
 end

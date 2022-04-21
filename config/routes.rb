@@ -4,8 +4,8 @@ Rails.application.routes.draw do
     namespace :v1 do
 
       get 'customers/:customer_id/subscriptions', to: 'customers/subscriptions#index' # get all subscriptions for a customer
-      post 'customers/:customer_id/subscriptions/:subscription_id', to: 'customers/subscriptions#create' # create an association between a customer and subscription (start a subscription)
-      delete 'customers/:customer_id/subscriptions/:subscription_id', to: 'customers/subscriptions#destroy' # delete an association between a customer and subscription (cancel a subscription)
+      post 'customer_subscriptions', to: 'customer_subscriptions#create' # create an association between a customer and subscription (start a subscription)
+      delete 'customer_subscriptions/:customer_subscription_id', to: 'customer_subscriptions#destroy' # delete an association between a customer and subscription (cancel a subscription)
 
     end
   end
