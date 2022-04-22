@@ -24,18 +24,18 @@ You can run the tests by running `rspec` from the command line
 ![alt text](https://lh3.googleusercontent.com/u36y_xCvbXE9Qb4wFZBUsQAJSQ_yUZqcVs-pMz6P04deXwAklVYheqLBEYdBZspFoTzIw--8BvNYvstqa4khg8JqhRTudsIOvyvaFHqL4KGGo66dhBTiECGK3E14TSzHsDzHlfHMIY4xuaIBtnpkXnrrL4yRBkYWWi2mbpNzRr-lT2Ph_HU1095LUpdT0dR1IeGJoAm-v7-oAE167Nh0RIFmHN8cLkelSBQAgwUnwYLzmgZgV8cjIVBB9k-JEb7fTsy6Jcq4NIgaIdOW4CPHd2un6IC5qL1-SpJ6j8Occax2Tz0OW2tSt8bYyVzGVGqFhBulUrqeqMXTVynAdnA9ef7LmY0shfPil5UrDU50SVsC7SH_E7YjlVBAJ1FWRUtPwyUPXa70FEGUBVVhK9YKYev2NADqU5GMB7S4rTQ0wmZqPLfCMEIGAXv_GYKpSjKg7N3SlxvdvxQrnftrkOwMcwn5RCXQK4mvWLNW__KjnN33Cx9Gybxn9XnnDWLktbtMzU1Cgkhqu5F9dZmVprhKgXTuO8ERdJQRGQi8TpPVp-30WvGPlSIjBalBwpSacRmDDiLeDUKUuTe7REFs8TLl0lUdi0n_ukwHQKEhPMhOuVy4WGhVoTGTh7VzTehxD8pS7cHDEkCdjD3exzFCUNoRY81dDioqaC9yza5FUs-7XiD53xo4kXa-WBau1gcqt3Sn-MKqqlYHTkQWIirqo35_2Emi5WCOwxvwsfhIjploqA9vzwL_OVtzY9rFqaT25V1apuVR1g-9WEn45K-cpNA-tNu9LXfyZEVI=w1940-h972-no?authuser=0)
 
 # Endpoints
+Retrieve all active and cancelled subscriptions for a customer
 `GET /customers/:customer_id/subscriptions`  
-Retrieves all active and cancelled subscriptions for a customer.
 
+Start a brand new subscription for a customer.
 `POST /customer_subscriptions`  
-Creates an association between a customer and subscription (start a subscription)
 
 Required params:
 - customer_id
 - subscription_id
 
+Update a subscription for a customer.(Cancel or continue a previous subscription)
 `PATCH /customer_subscriptions`  
-Updates an association between a customer and subscription (cancel or continue a previous subscription)
 
 Required params:
 - customer_id
