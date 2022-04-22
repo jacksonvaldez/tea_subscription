@@ -49,4 +49,3 @@ HTTP Params:
 | customer_id | Any positive integer | Integer | yes |
 | subscription_id | Any positive integer | Integer | yes |
 | status | 0, 1 | Integer | yes |
-status 0 is active, and status 1 is cancelled
