@@ -18,7 +18,15 @@ class Api::V1::CustomerSubscriptionsController < ApplicationController
   end
 
   def destroy # delete an association between a customer and subscription (cancel a subscription)
-    binding.pry
+    cs = CustomerSubscription.where(customer_id: params[:customer_id], subscription_id: params[:subscription_id]).first
+
+    if cs
+      cs.destroy
+
+      render json: { message: "Resource Destroyed"}
+    else
+      render json: { error: "Customer ID and/or Subscription ID is invalid" }, status: 400
+    end
   end
 
 
