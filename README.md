@@ -24,7 +24,7 @@ You can run the tests by running `rspec` from the command line
 ![Imgur](https://i.imgur.com/TSoTo7G.png)
 
 # Endpoints
-You can also find a clear documentation of the endpoints using our actively maintained [postman collection](https://github.com/jacksonvaldez)
+You can also find a clear documentation of the endpoints using our actively maintained [postman collection](https://go.postman.co/workspace/tea_subscription~af922e87-9567-4da5-b732-7f592bab4fba/collection/19393847-10d9651a-9d12-46a0-9a42-8a6b555d74a0?action=share&creator=19393847)
 ### 1. Retrieve all active and cancelled subscriptions for a customer.  
 `GET /customers/:customer_id/subscriptions`  
 No params neccesary
