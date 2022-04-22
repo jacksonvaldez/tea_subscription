@@ -17,4 +17,4 @@ Our tests are ran using an RSpec gem. More information can be found here: https:
 You can run the tests by running `rspec` from the command line
 
 # Database
-
+![alt text](image.jpg)
