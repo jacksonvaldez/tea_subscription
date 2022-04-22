@@ -31,7 +31,7 @@ You can run the tests by running `rspec` from the command line
 ### 2. Start a brand new subscription for a customer.  
 `POST /customer_subscriptions`  
 
-Required Params
+Required Params:
 | Param | Acceptable Values | Data Type   | Required |
 | ----------- | ----------- | ----------- | ----------- |
 | customer_id | Any positive integer | Integer | yes |
@@ -40,6 +40,8 @@ Required Params
 ### 3. Update a subscription for a customer.(Cancel or continue a previous subscription).  
 `PATCH /customer_subscriptions`  
 
-Required params:
-- customer_id
-- subscription_id
+Required Params:
+| Param | Acceptable Values | Data Type   | Required |
+| ----------- | ----------- | ----------- | ----------- |
+| customer_id | Any positive integer | Integer | yes |
+| subscription_id | Any positive integer | Integer | yes |
