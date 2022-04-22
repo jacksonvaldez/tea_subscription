@@ -1,6 +1,6 @@
 # Tea Subscription
 
-Tea Subscription Service serves as the backend functinality of the application.
+Tea Subscription Service serves as the backend functionality of the application.
 
 Ruby 2.7.5  
 Rails 5.2.7
