@@ -23,12 +23,16 @@ You can run the tests by running `rspec` from the command line
 
 # Endpoints
 `GET /customers/:customer_id/subscriptions`
-- Retrieves all active and cancelled subscriptions for a customer.
+Retrieves all active and cancelled subscriptions for a customer.
 
 `POST /customer_subscriptions`
-- Creates an association between a customer and subscription (start a subscription)
-- required params: customer_id, subscription_id
+Creates an association between a customer and subscription (start a subscription)
+Required params:
+- customer_id
+- subscription_id
 
 `PATCH /customer_subscriptions`
-- Updates an association between a customer and subscription (cancel or continue a previous subscription)
-- required params: customer_id, subscription_id
+Updates an association between a customer and subscription (cancel or continue a previous subscription)
+Required params:
+- customer_id
+- subscription_id
