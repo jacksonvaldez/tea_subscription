@@ -17,7 +17,7 @@ RSpec.describe 'update a customers subscription status' do
     patch "/api/v1/customer_subscriptions?customer_id=#{@customer.id}&subscription_id=#{@subscription.id}&status=1"
 
     response_body = JSON.parse(response.body, symbolize_names: true)
-    binding.pry
+
     expect(CustomerSubscription.first.status).to eq(1)
   end
 
