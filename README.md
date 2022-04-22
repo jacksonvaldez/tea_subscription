@@ -34,7 +34,7 @@ Required params:
 - customer_id
 - subscription_id
 
-Update a subscription for a customer.(Cancel or continue a previous subscription)
+Update a subscription for a customer.(Cancel or continue a previous subscription).  
 `PATCH /customer_subscriptions`  
 
 Required params:
