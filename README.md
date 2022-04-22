@@ -27,18 +27,14 @@ You can run the tests by running `rspec` from the command line
 ### Retrieve all active and cancelled subscriptions for a customer.  
 `GET /customers/:customer_id/subscriptions`  
 
-| Param | Acceptable Values | Data Type   |
-| ----------- | ----------- | ----------- |
-| customer_id | Any positive integer | Integer |
-| subscription_id | Any positive integer | Integer |
-
 
 ### Start a brand new subscription for a customer.  
 `POST /customer_subscriptions`  
 
-Required params:
-- customer_id
-- subscription_id
+| Param | Acceptable Values | Data Type   |
+| ----------- | ----------- | ----------- |
+| customer_id | Any positive integer | Integer |
+| subscription_id | Any positive integer | Integer |
 
 ### Update a subscription for a customer.(Cancel or continue a previous subscription).  
 `PATCH /customer_subscriptions`  
