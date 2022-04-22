@@ -24,10 +24,10 @@ You can run the tests by running `rspec` from the command line
 ![Imgur](https://i.imgur.com/TSoTo7G.png)
 
 # Endpoints
-Retrieve all active and cancelled subscriptions for a customer
+Retrieve all active and cancelled subscriptions for a customer.  
 `GET /customers/:customer_id/subscriptions`  
 
-Start a brand new subscription for a customer.
+Start a brand new subscription for a customer.  
 `POST /customer_subscriptions`  
 
 Required params:
