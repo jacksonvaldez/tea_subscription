@@ -31,10 +31,11 @@ You can run the tests by running `rspec` from the command line
 ### 2. Start a brand new subscription for a customer.  
 `POST /customer_subscriptions`  
 
-| Param | Acceptable Values | Data Type   |
-| ----------- | ----------- | ----------- |
-| customer_id | Any positive integer | Integer |
-| subscription_id | Any positive integer | Integer |
+Required Params
+| Param | Acceptable Values | Data Type   | Required |
+| ----------- | ----------- | ----------- | ----------- |
+| customer_id | Any positive integer | Integer | yes |
+| subscription_id | Any positive integer | Integer | yes |
 
 ### 3. Update a subscription for a customer.(Cancel or continue a previous subscription).  
 `PATCH /customer_subscriptions`  
