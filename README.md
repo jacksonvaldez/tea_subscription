@@ -5,7 +5,9 @@ Tea Subscription Service serves as the backend functionality of the application.
 Ruby 2.7.5  
 Rails 5.2.7
 
-Application built by [Jackson Valdez](https://github.com/jacksonvaldez)
+# Credits
+- [Jackson Valdez](https://github.com/jacksonvaldez)
+- Built with [Rails](https://rubyonrails.org/)
 
 # Setup
 
