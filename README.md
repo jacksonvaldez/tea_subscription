@@ -27,11 +27,10 @@ You can run the tests by running `rspec` from the command line
 ### Retrieve all active and cancelled subscriptions for a customer.  
 `GET /customers/:customer_id/subscriptions`  
 
-Example Request:  
-GET http://localhost:3000/customers/:customer_id/subscriptions
-
-Example Response:
-``
+| Param | Acceptable Values | Data Type   |
+| ----------- | ----------- | ----------- |
+| customer_id | Any positive integer | Integer |
+| subscription_id | Any positive integer | Integer |
 
 
 ### Start a brand new subscription for a customer.  
