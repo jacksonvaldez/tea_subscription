@@ -22,7 +22,7 @@ RSpec.describe CustomerSubscription, type: :model do
 
     cs = CustomerSubscription.create!(customer_id: customer.id, subscription_id: subscription.id)
 
-    expected = ["id", "customer_id", "subscription_id", "created_at", "updated_at"]
+    expected = ["id", "status", "customer_id", "subscription_id", "created_at", "updated_at"]
 
     expect(cs.attributes.keys).to eq(expected)
   end
