@@ -7,25 +7,14 @@ Rails 5.2.7
 
 # Setup
 
-1. Clone this repository using `git clone`
-2. 
+1. Clone this repository to your machine by running `git clone git@github.com:jacksonvaldez/tea_subscription.git`
+2. Change directory into the repository by running `cd tea_subscription`
+3. Install dependencies by running `bundle install` (Bundler Required: https://bundler.io/)
 
-Things you may want to cover:
+# Test Suite
+Our tests are ran using an RSpec gem. More information can be found here: https://github.com/rspec/rspec-rails
 
-* Ruby version
+You can run the tests by running `rspec` from the command line
 
-* System dependencies
+# Database
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
