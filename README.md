@@ -24,11 +24,11 @@ You can run the tests by running `rspec` from the command line
 ![Imgur](https://i.imgur.com/TSoTo7G.png)
 
 # Endpoints
-### Retrieve all active and cancelled subscriptions for a customer.  
+### 1. Retrieve all active and cancelled subscriptions for a customer.  
 `GET /customers/:customer_id/subscriptions`  
 
 
-### Start a brand new subscription for a customer.  
+### 2. Start a brand new subscription for a customer.  
 `POST /customer_subscriptions`  
 
 | Param | Acceptable Values | Data Type   |
@@ -36,7 +36,7 @@ You can run the tests by running `rspec` from the command line
 | customer_id | Any positive integer | Integer |
 | subscription_id | Any positive integer | Integer |
 
-### Update a subscription for a customer.(Cancel or continue a previous subscription).  
+### 3. Update a subscription for a customer.(Cancel or continue a previous subscription).  
 `PATCH /customer_subscriptions`  
 
 Required params:
